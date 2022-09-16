@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+
+.nav-list, a {
+    color: white;
+    font-weight: 800;
+    font-size: 24px;
+    cursor: pointer;
+    line-height: 59px;
+    margin-right: 43px;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 60px;
+
+}
+
+.nav-list {
+   display: flex;
+    justify-content: center;
+
+}
+
+nav {
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+.profile-box1 {
+    background: transparent;
+    max-width: 450px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    line-height: 39px;
+    padding-top: 120px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 320px;
+}
+
+.background-img {
+    position: relative;
+    width: 100%;
+    background: black;
+    opacity: 0.9;
+
+}
+
+.background-img::after {
+    content: "";
+
+    background-image: url(./JavaScript-Por-Que-Você-Deve-Aprender-Essa-Linguagem-1024x683.jpeg);
+    opacity: 0.28;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.title {
+    color: white;
+    max-width: 650px;
+    margin: auto;
+    text-align: center;
+    line-height: 29px;
+
+}
+
+.logo-tipo {
+    width: 30px;
+    background-color: aliceblue;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+.text-about {
+    border: 1px solid white;
+    padding: 8px;
+}
+
+.title1 {
+    padding: 70px;
+}
+
+.accordionItemTitle {
+    color: white;
+}
+
+.articleContainer {
+    color: white;
+}
+
+.articleTimeContainer {
+    color: white;
+}
