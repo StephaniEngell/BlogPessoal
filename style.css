@@ -1,110 +1,190 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat Alternates', sans-serif;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat Alternates', sans-serif;
+  scroll-behavior: smooth;
 }
 
 
 
-.nav-list, a {
-    color: white;
-    font-weight: 800;
-    font-size: 24px;
-    cursor: pointer;
-    line-height: 59px;
-    margin-right: 43px;
-    text-decoration: none;
-    list-style: none;
-    margin-left: 60px;
+.nav-list,
+a {
+  color: white;
+  font-weight: 800;
+  font-size: 24px;
+  cursor: pointer;
+  line-height: 59px;
+  text-decoration: none;
+  list-style: none;
 
 }
 
 .nav-list {
-   display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  width: 100vw;
+  gap: 100px;
+
 
 }
 
 nav {
-    width: 100%;
-    top: 0;
-    position: fixed;
+  position: fixed;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
 }
 
 .profile-box1 {
-    background: transparent;
-    max-width: 450px;
-    margin: auto;
-    color: white;
-    text-align: center;
-    line-height: 39px;
-    padding-top: 120px;
+  background: transparent;
+  max-width: 450px;
+  margin: auto;
+  color: white;
+  text-align: center;
+  line-height: 39px;
+  padding-top: 150px;
+
 }
 
 .profile-pic {
-    border-radius: 50%;
-    width: 320px;
+  border-radius: 50%;
+  width: 320px;
 }
 
 .background-img {
-    position: relative;
-    width: 100%;
-    background: black;
-    opacity: 0.9;
+  position: relative;
+  width: 100%;
+  background: black;
+  opacity: 0.9;
 
 }
 
 .background-img::after {
-    content: "";
+  content: "";
 
-    background-image: url(./JavaScript-Por-Que-Você-Deve-Aprender-Essa-Linguagem-1024x683.jpeg);
-    opacity: 0.28;
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+  background-image: url(./assets/JavaScript-Por-Que-Você-Deve-Aprender-Essa-Linguagem-1024x683.jpeg);
+  opacity: 0.28;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 .title {
-    color: white;
-    max-width: 650px;
-    margin: auto;
-    text-align: center;
-    line-height: 29px;
+  color: white;
+  max-width: 650px;
+  margin: auto;
+  text-align: center;
+  line-height: 29px;
 
 }
 
 .logo-tipo {
-    width: 30px;
-    background-color: aliceblue;
-    margin: auto;
+  width: 30px;
+  background-color: aliceblue;
+  margin: auto;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .text-about {
-    border: 1px solid white;
-    padding: 8px;
+  border: 1px solid white;
+  padding: 8px;
 }
 
 .title1 {
-    padding: 70px;
+  padding: 110px 0 60px 0;
 }
 
-.accordionItemTitle {
-    color: white;
+
+.containerWrapper {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.articleContainer {
-    color: white;
+.containerr {
+  border: 1px solid white;
+  padding: 8px;
+  max-width: 800px;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  margin: auto 5px;
+
+  color: white;
 }
 
-.articleTimeContainer {
-    color: white;
+.contentt {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.accordion_item {
+  border-radius: 5px;
+}
+
+.accordion_item:hover {
+  opacity: 0.9;
+}
+
+.accordion_header {
+  padding: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 24px;
+
+}
+
+.accordion_header,
+span {
+  text-align: center;
+  width: 780px;
+
+}
+
+.accordion_content {
+  margin-left: 50px;
+  margin-right: 15px;
+  overflow: hidden;
+  height: 0;
+  transition: all .5s ease;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.active {
+  padding-bottom: 10px;
+}
+
+span,
+.icon {
+  font-weight: 600;
+}
+
+
+.title_article {
+  color: white;
+  max-width: 650px;
+  margin: auto;
+  text-align: center;
+  line-height: 29px;
+  margin: 103px auto 60px;
+}
+
+footer {
+
+  background-color: transparent;
+  color: white;
+  margin-top: 70px;
 }
