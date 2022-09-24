@@ -188,3 +188,34 @@ footer {
   color: white;
   margin-top: 70px;
 }
+
+/* #################################### Responsividade do site  telas pequenas 1280 - 769px ###################### */
+
+@media screen and (max-width: 768px){
+
+  .background-img ul.nav-list{ 
+    height: auto;
+    display: flex;      /* Alinhamento dos itens */
+    flex-wrap: wrap;  /*  tenta encaixar os itens numa unica linha se nao couber vai para a linha de baixo*/
+    gap: 12px;     /* Distancia entre cada elemento */
+    padding: 12px;
+    font-size: 14px;
+
+  }
+
+  .nav-list, a{
+    line-height: 28px;
+  }
+
+    .containerWrapper{
+      display: flex; /* Alinhamento dos itens */
+      margin: auto;  /* Centraliza os itens no meio da tela */
+      width: 95vw;   /* Vai limitar o tamanho da largura em 95% da largura total da tela, nao importa seu tamanho */
+    }
+
+  .accordion_header{
+    width: 90vw; /* Limitar a largura da caixa do texto para nao passar da tela */
+  }
+  
+}
+  
